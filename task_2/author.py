@@ -8,6 +8,7 @@ class Contact:
 
     # здесь напишите метод show_contact()
     # он будет очень похож на функцию print_contact()
+
     def show_contact(self):
         print(f"{self.name} — адрес: {self.address}, телефон: {self.phone}, день рождения: {self.birthday}")
 
